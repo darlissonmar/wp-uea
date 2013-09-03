@@ -93,6 +93,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\BichoVirtual.cs" />
     <Compile Include="ViewModel\Bola.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="BolaPage.xaml.cs">
@@ -104,7 +105,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\ContaCorrente.cs" />
+    <Compile Include="ViewModel\Macaco.cs" />
+    <Compile Include="ViewModel\Pessoa.cs" />
     <Compile Include="ViewModel\Quadrado.cs" />
+    <Compile Include="ViewModel\Retangulo.cs" />
+    <Compile Include="ViewModel\TV.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

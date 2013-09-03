@@ -9,7 +9,7 @@ namespace ListaWP
 {
     public class Bola : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        private event PropertyChangedEventHandler PropertyChanged;
 
         public Bola(string cor) 
         {
